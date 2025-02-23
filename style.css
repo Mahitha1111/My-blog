@@ -1,21 +1,35 @@
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+/* Global Styles */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #f5f5f5;
     color: #333;
+    line-height: 1.6;
 }
 
+/* Header */
 header {
-    background: #42e1bb;
-    color: black;
-    padding: 15px;
+    background: #222;
+    color: white;
     text-align: center;
+    padding: 20px 0;
 }
 
+header h1 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin: 0;
+}
+
+/* Navigation */
 nav ul {
     list-style: none;
     padding: 0;
+    margin: 10px 0 0;
 }
 
 nav ul li {
@@ -24,35 +38,76 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white;
     text-decoration: none;
-    font-weight: bold;
+    color: white;
+    font-weight: 400;
+    transition: 0.3s;
 }
 
+nav ul li a:hover {
+    color: #ddd;
+}
+
+/* Sections */
 section {
-    max-width: 800px;
-    margin: 20px auto;
+    max-width: 700px;
+    margin: 40px auto;
     padding: 20px;
     background: white;
     border-radius: 10px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
 
+/* Headings */
 h2 {
-    color: #444;
+    color: #222;
+    font-weight: 600;
+    margin-bottom: 10px;
 }
 
+/* Blog Post */
 article {
-    margin-bottom: 20px;
     padding: 15px;
-    border-left: 5px solid #42e1bb;
+    border-left: 4px solid #555;
     background: #f9f9f9;
+    border-radius: 5px;
+    transition: background 0.3s;
 }
 
+article:hover {
+    background: #f1f1f1;
+}
+
+article h3 {
+    margin: 0;
+    color: #333;
+}
+
+/* Contact Section */
+#contact p {
+    font-size: 1rem;
+}
+
+#contact a {
+    color: #0077cc;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+#contact a:hover {
+    color: #004488;
+    text-decoration: underline;
+}
+
+/* Footer */
 footer {
     text-align: center;
-    padding: 10px;
-    background: #42e1bb;
-    color: black;
+    padding: 15px;
+    background: #222;
+    color: white;
+    font-size: 0.9rem;
     margin-top: 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
+
