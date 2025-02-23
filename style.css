@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
-    color: #42e1bb;
+    color: #333;
 }
 
 header {
@@ -52,7 +52,7 @@ article {
 footer {
     text-align: center;
     padding: 10px;
-    background: #333;
+    background: #42e1bb;
     color: white;
     margin-top: 20px;
 }
